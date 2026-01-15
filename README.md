@@ -17,7 +17,7 @@ He taught
 6) Add files to git using                                                        ||  for all files git add. or single file git add <filename>         
 7) Commit those changes                                                          ||  git commit -m 'message'
 8) Make changes by deleting and adding new files and re-commiting those changes  ||  rm index.html | commit -m 'removed html file'
-9) Config work with email and name                                               ||  git config --global user.email"swapnilamundra1811@gmail.com"  | git config --global user.name"Swapnila Mundra"
+9) Config work with email and name                                               ||  git config --global user.email "swapnilamundra1811@gmail.com"  | git config --global user.name "Swapnila Mundra" | To see list                                                                                       git config --list
 10) Put the folder created on to GitHub                                          ||  git remote add origin https://github.com/swapnilamundra/gitVideo.git
 11) Push to the website                                                          ||  git push -u origin master
 12) Create branch on GIT                                                         ||  git checkout -b new-branch (to create new branch) | git branch (to see all branches)
@@ -27,4 +27,5 @@ He taught
 16) To See all previous changes saved                                            ||  git log
 17) Travel back to old commit                                                    ||  git checkout <hashvalue of commit>
 18) To track status of changes                                                   ||  git status
+19) Clone a repo                                                                 || git clone 
 
