@@ -27,5 +27,5 @@ He taught
 16) To See all previous changes saved                                            ||  git log
 17) Travel back to old commit                                                    ||  git checkout <hashvalue of commit>
 18) To track status of changes                                                   ||  git status
-19) Clone a repo                                                                 || git clone 
+19) Clone a repo                                                                 || git clone https://github.com/swapnilamundra/gitVideo.git
 
