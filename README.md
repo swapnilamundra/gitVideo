@@ -28,4 +28,7 @@ He taught
 17) Travel back to old commit                                                    ||  git checkout <hashvalue of commit>
 18) To track status of changes                                                   ||  git status
 19) Clone a repo                                                                 || git clone https://github.com/swapnilamundra/gitVideo.git
-
+20) to see the contents of a folder || ls 
+to see hidden files and folders ls -a or ls -force (when las -a doesn't work)
+21) Change directory/Exit directory            ||  cd  | cd ..
+22) Remove directory || rmdir <directory name>
