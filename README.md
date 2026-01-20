@@ -36,4 +36,4 @@ to see hidden files and folders ls -a or ls -force (when las -a doesn't work)
 24) To know current branch || git branch --show current
 25) To verify origin || git remote -v 
 26) To delete a branch git branch -d branchname
-27) Lets see if this gets added to main 
+     
