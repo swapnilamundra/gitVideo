@@ -49,3 +49,9 @@ git push -u origin main
     Accept Incoming change => Keep branch2
     Accept Both => Keep both
     Compare Changes
+32) Undoing changes
+    Before Staging meaning add . || git restore index.html
+    After Commit || git reset HEAD~1 (goes back to one commit)
+                || use git restore index.html once again
+
+33) To see logs in reverse meaning latest first || git log --reverse
