@@ -41,3 +41,11 @@ to see hidden files and folders ls -a or ls -force (when las -a doesn't work)
 
 git push -u origin main 
 -u indicates to set upstream, meaning if you know for long term you are going to be working in the same project. then set -u and from next time just use => git push
+
+29) To Check differences in two branches || git diff <tobranchname>
+30) Merging with command line(without creating pull request on GITHUB) || git merge <tobranchname>
+31) Resolving merge conflicts
+    Accept Current Change => Keep changes of the current branch you're working in 
+    Accept Incoming change => Keep branch2
+    Accept Both => Keep both
+    Compare Changes
