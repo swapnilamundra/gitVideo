@@ -35,6 +35,9 @@ to see hidden files and folders ls -a or ls -force (when las -a doesn't work)
 23) To rename a branch || git branch -M main
 24) To know current branch || git branch --show current
 25) To verify origin || git remote -v 
-26) To delete a branch git branch -d branchname
-27) Master renamed to main    
-28) Lets see if it goes back to GitHib
+26) To delete a branch || git branch -d <branchname>
+27) To create a new branch  || git checkout -b <branchname>
+28) To Switch || git checkout <branchname>
+
+git push -u origin main 
+-u indicates to set upstream, meaning if you know for long term you are going to be working in the same project. then set -u and from next time just use => git push
