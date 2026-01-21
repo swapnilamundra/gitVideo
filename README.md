@@ -53,5 +53,18 @@ git push -u origin main
     Before Staging meaning add . || git restore index.html
     After Commit || git reset HEAD~1 (goes back to one commit)
                 || use git restore index.html once again
+         To remove only from GITHUB || git reset <commit hash value>
+         To remove from VS Code as well  || git reset --hard <commit hash value>
+
 
 33) To see logs in reverse meaning latest first || git log --reverse
+
+34) FORK
+    To copy someone else's repository and use it as a rough copy
+
+    creates a new repo with same code and same visibilty settings
+
+    To make changes to someone else's code or make code contributions
+
+    Can be done from GITHIUB forking only master or all branches
+    And later can create PR on the original repo
